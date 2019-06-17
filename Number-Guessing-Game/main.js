@@ -6,4 +6,13 @@ else if (num%2==1)
 for (count = 1; count<=10; count++) //for the loop to count 10 times//
 {
 	guess= prompt("Guess num of your choice");//prompts user t input number//
+
+if(num>num)
+alert("number is higher");
+else if (num<num)
+alert("number is lower");
+else if (num==num)
+alert("YOU LOOSE");
+else 
+	alert ("YOU WIN");
 }
